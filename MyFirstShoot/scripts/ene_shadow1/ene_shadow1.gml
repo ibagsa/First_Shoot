@@ -4,7 +4,7 @@
 //
 
 function ene_shadow1(){
-	var patternDelay = 0.5;
+	var patternDelay = 1;
 	var shootSpd = 3.5;
 	var shootArg = 5;
 	var shootType = o_ene_shoot2;
