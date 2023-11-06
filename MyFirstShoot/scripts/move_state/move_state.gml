@@ -1,7 +1,7 @@
 ///@desc move_state()
 
-//
-//
+//Set player move state
+//플레이어의 이동 전반을 관리합니다.
 
 function move_state(){
 	//Get Key
@@ -24,7 +24,7 @@ function move_state(){
 	if((x+moveX) < 0 || (x+moveX) > room_width){
 		moveX = 0;
 	}
-	if((y+moveY) < 0 || (y+moveY) > (room_height-(PLAYER.sprite_height / 2))){
+	if((y+moveY) < (room_height/2) || (y+moveY) > (room_height-(PLAYER.sprite_height/2))){
 		moveY = 0;
 	}
 	

@@ -1,4 +1,5 @@
 /// @desc Initalize
+
 #macro PLAYER o_player
 
 //State

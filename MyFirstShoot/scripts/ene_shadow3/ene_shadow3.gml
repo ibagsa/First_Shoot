@@ -1,7 +1,7 @@
 ///@desc ene_shadow3()
 
-//
-//
+//Pattern 3.
+//3번 패턴
 
 function ene_shadow3(){
 	var patternDelay = 1.75;

@@ -1,4 +1,5 @@
 /// @desc Initalize move
+
 speed = 0;
 dirX = x;
 dirY = y;

@@ -1,4 +1,5 @@
-/// @desc Draw hitbox able
+/// @desc Draw hitbox
+
 if(global.drawHitbox == true){
 	global.drawHitbox = false;
 } else{

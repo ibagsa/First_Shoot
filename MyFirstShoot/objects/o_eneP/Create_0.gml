@@ -1,4 +1,5 @@
 /// @desc Initalize
+
 //State
 onMoveState = false;
 hp = 0;

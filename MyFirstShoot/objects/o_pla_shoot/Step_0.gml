@@ -1,4 +1,5 @@
 /// @desc Every step
+
 depth = -(y/2);
 if(global.gameStop == false){
 	direction = 90;

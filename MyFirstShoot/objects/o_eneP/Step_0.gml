@@ -1,4 +1,5 @@
 /// @desc Every step
+
 depth = -y;
 if(hp < 1){
 	instance_destroy();

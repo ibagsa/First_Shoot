@@ -1,4 +1,5 @@
 /// @desc Every step
+
 depth = -y;
 if(global.gameStop == false && onMoveState == true){
 	direction = dir;

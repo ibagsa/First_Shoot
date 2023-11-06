@@ -1,4 +1,5 @@
 /// @desc Initalize
+
 //State
 onMoveState = false;
 type = 1;
