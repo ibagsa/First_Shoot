@@ -4,12 +4,12 @@
 //
 
 function ene_shadow1(){
-	var patternDelay = 1;
+	var patternDelay = 0.5;
 	var shootSpd = 3.5;
-	var shootArg = 5;
+	var shootArg = 2.5;
 	var shootType = o_ene_shoot2;
 	var shootDelay = 0;
-	var size = 72;
+	var size = 144;
 	
 	if(global.gameStop == false){
 		switch(patternCount){
