@@ -2,7 +2,7 @@
 
 //State
 onMoveState = false;
-type = 1;
+type = 0;
 hp = 75;
 dirX = 0;
 dirY = 0;
