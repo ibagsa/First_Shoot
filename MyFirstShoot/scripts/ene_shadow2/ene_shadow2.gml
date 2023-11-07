@@ -20,7 +20,7 @@ function ene_shadow2(){
 			dirX = 320;
 			dirY = 480;
 			patternCount++;
-			alarm[1] = (patternDelay)*FPS;
+			alarm[1] = (patternDelay) * FPS;
 			break;
 			
 			case 1:
@@ -31,8 +31,8 @@ function ene_shadow2(){
 			for(var i=0; i<size; i++){
 				shoot[i] = instance_create_depth(x,y,0,shootType);
 				shoot1[i] = instance_create_depth(x,y,0,shootType);
-				shoot[i].dir = (i+15)*shootArg;
-				shoot1[i].dir = (i+75)*shootArg;
+				shoot[i].dir = (i+15) * shootArg;
+				shoot1[i].dir = (i+75) * shootArg;
 				shoot[i].spd = shootSpd;
 				shoot1[i].spd = shootSpd;
 				shoot[i].onMoveState = false;
