@@ -15,14 +15,8 @@ function ene_shadow3(){
 		switch(patternCount){
 			case 0:
 			onMoveState = true;
-			switch(stepCount){
-				case 0: dirX = x+200; stepCount++; break;
-				case 1: dirX = x-200; stepCount++; break;
-				case 2: dirX = x-200; stepCount++; break;
-				case 3: dirX = x+200; stepCount = 0; break;
-			}
 			patternCount++;
-			alarm[1] = (patternDelay*3)*FPS;
+			alarm[1] = (patternDelay*3) * FPS;
 			break;
 		
 			case 1:
