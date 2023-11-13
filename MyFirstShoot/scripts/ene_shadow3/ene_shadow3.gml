@@ -1,7 +1,7 @@
 ///@desc ene_shadow3()
 
 //Pattern 1. Fires a shell at a 180 degree angle towards the player. 
-//3번 패턴. 플레이어를 향해 180도 각도로 탄피를 발사합니다. 랜덤으로 이동합니다.
+//3번 패턴. 플레이어를 향해 180도 각도로 탄피를 발사합니다. 상단에서 랜덤으로 이동합니다.
 
 function ene_shadow3(){
 	var patternDelay = 0.5;
