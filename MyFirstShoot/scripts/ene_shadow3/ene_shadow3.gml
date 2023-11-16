@@ -4,19 +4,28 @@
 //3번 패턴. 플레이어를 향해 180도 각도로 탄피를 발사합니다. 상단에서 랜덤으로 이동합니다.
 
 function ene_shadow3(){
-	var patternDelay = 0.5;
+	var patternDelay = 0.65;
 	var shootSpd = 3.5;
 	var shootArg = 2.5;
 	var shootType = o_ene_shoot2;
 	var shootDelay = 0;
 	var size = 144;
+	var moveX = 0;
+	var moveY = 0;
+	
+	moveX = randomize();
+	moveY = randomize();
 	
 	if(global.gameStop == false){
 		switch(patternCount){
 			case 0:
 			onMoveState = true;
+			moveX = random_range(128 , (room_width-128));
+			moveY = random_range(128 , (room_height/2-128));
+			dirX = x + (moveX - x);
+			dirY = y + (moveY - y);
 			patternCount++;
-			alarm[1] = (patternDelay*3) * FPS;
+			alarm[1] = (patternDelay*3)*FPS;
 			break;
 		
 			case 1:
@@ -45,7 +54,7 @@ function ene_shadow3(){
 			alarm[1] = patternDelay * FPS;
 			alarm[2] = (patternDelay / 2) * FPS;
 			break;
-		
+			
 			case 3:
 			image_index = 1;
 			shoot[size] = [0,];

@@ -1,7 +1,7 @@
 /// @desc Draw hitbox
 
 if(global.drawHitbox == true){
-	draw_set_color(c_white);
+	draw_set_color(c_black);
 	draw_set_alpha(0.5);
 	draw_rectangle(x-3,y-6,x+4, y+5,false);
 
