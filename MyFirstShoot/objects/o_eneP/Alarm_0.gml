@@ -1,4 +1,4 @@
-/// @desc Initalize move
+/// @desc Pattern start
 
 speed = 0;
 dirX = x;
