@@ -13,7 +13,7 @@ function ene_shadow3(){
 	var moveX = 0;
 	var moveY = 0;
 	
-	moveX = randomize(); //매 게임 실행 시 동일한 무작위 시드 생성을 막아준다.
+	moveX = randomize(); //매 게임 실행 시 동일한 무작위 시드가 생성되는 것을 막아준다.
 	moveY = randomize();
 	
 	if(global.gameStop == false){
