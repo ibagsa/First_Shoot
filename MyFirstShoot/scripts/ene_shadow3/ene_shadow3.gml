@@ -4,7 +4,7 @@
 //3번 패턴. 플레이어를 향해 180도 각도로 탄피를 발사합니다. 상단에서 랜덤으로 이동합니다.
 
 function ene_shadow3(){
-	var patternDelay = 0.65;
+	var patternDelay = 0.6;
 	var shootSpd = 3.5;
 	var shootArg = 2.5;
 	var shootType = o_ene_shoot2;
@@ -12,6 +12,7 @@ function ene_shadow3(){
 	var size = 144;
 	var moveX = 0;
 	var moveY = 0;
+	var temp = 0;
 	
 	moveX = randomize(); //매 게임 실행 시 동일한 무작위 시드가 생성되는 것을 막아준다.
 	moveY = randomize();
@@ -77,7 +78,7 @@ function ene_shadow3(){
 				shoot[i].spd = shootSpd;
 			}
 			patternCount = 0;
-			alarm[1] =patternDelay * FPS;
+			alarm[1] = patternDelay * FPS;
 			alarm[2] = (patternDelay / 2) * FPS;
 			break;
 		}
