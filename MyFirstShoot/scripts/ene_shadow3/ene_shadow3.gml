@@ -48,7 +48,7 @@ function ene_shadow3(){
 			shoot[size] = [0,];
 			for(var i=size/2; i<size; i++){
 				shoot[i] = instance_create_depth(x,y,0,shootType);
-				shoot[i].dir = i*shootArg + shootArg/2;
+				shoot[i].dir = i * shootArg + shootArg/2;
 				shoot[i].spd = shootSpd;
 			}
 			patternCount++;
