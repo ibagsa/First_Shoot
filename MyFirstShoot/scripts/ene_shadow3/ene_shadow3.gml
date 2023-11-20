@@ -26,7 +26,7 @@ function ene_shadow3(){
 			dirX = x + (moveX - x);
 			dirY = y + (moveY - y);
 			patternCount++;
-			alarm[1] = (patternDelay*3)*FPS;
+			alarm[1] = (patternDelay * 3) * FPS;
 			break;
 		
 			case 1:
