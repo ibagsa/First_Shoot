@@ -18,7 +18,7 @@ function ene_shadow2(){
 			case 0:
 			onMoveState = true;
 			dirX = 320;
-			dirY = 480;
+			dirY = 240;
 			patternCount++;
 			alarm[1] = (patternDelay) * FPS;
 			break;
