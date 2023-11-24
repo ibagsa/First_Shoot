@@ -14,9 +14,9 @@ if(global.gameStop == false && onMoveState == true){
 if(onDel == true){
 	var sequ = 0;
 	if(shootType == 0){
-		sequ = layer_sequence_create("Background",x,y,Sequence1);
+		sequ = layer_sequence_create("Backgrounds",x,y,Sequence1);
 	} else{
-		sequ = layer_sequence_create("Background",x,y,Sequence2);
+		sequ = layer_sequence_create("Backgrounds",x,y,Sequence2);
 	}
 	layer_sequence_play(sequ);
 	instance_destroy();
