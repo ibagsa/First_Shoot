@@ -1,5 +1,7 @@
 {
-  "FolderOrderSettings": [],
+  "FolderOrderSettings": [
+    {"name":"textbox","order":2,"path":"folders/스크립트/textbox.yy",},
+  ],
   "ResourceOrderSettings": [
     {"name":"s_ene_shadow","order":2,"path":"sprites/s_ene_shadow/s_ene_shadow.yy",},
     {"name":"o_textbox","order":3,"path":"objects/o_textbox/o_textbox.yy",},

@@ -28,6 +28,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"타임라인","folderPath":"folders/타임라인.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"필기","folderPath":"folders/필기.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"확장 기능","folderPath":"folders/확장 기능.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"textbox","folderPath":"folders/스크립트/textbox.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -37,6 +38,7 @@
   },
   "resources": [
     {"id":{"name":"s_ene_shadow","path":"sprites/s_ene_shadow/s_ene_shadow.yy",},},
+    {"id":{"name":"show_textbox_info","path":"scripts/show_textbox_info/show_textbox_info.yy",},},
     {"id":{"name":"o_textbox","path":"objects/o_textbox/o_textbox.yy",},},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"o_ene_shoot1","path":"objects/o_ene_shoot1/o_ene_shoot1.yy",},},
