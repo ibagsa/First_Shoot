@@ -1,7 +1,7 @@
 /// @desc Every step
 
 depth = -(y/2);
-if(global.gameStop == false){
+if(global.onGamePause == false){
 	direction = 90;
 	speed = spd;
 } else{

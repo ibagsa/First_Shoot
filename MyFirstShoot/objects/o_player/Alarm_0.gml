@@ -1,6 +1,6 @@
 /// @desc Every shoot
 
-if(global.gameStop == false){
+if(global.onGamePause == false){
 	instance_create_depth(x,y,-y,o_pla_shoot);
 }
-alarm[0] = shootDelay * room_speed ;
+alarm[0] = shootDelay * FPS;

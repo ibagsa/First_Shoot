@@ -1,7 +1,7 @@
 /// @desc Every step
 
 depth = -y;
-if(global.gameStop == false && onMoveState == true){
+if(global.onGamePause == false && onMoveState == true){
 	direction = dir;
 	speed = spd;
 	if(shootType == 0){

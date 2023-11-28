@@ -5,7 +5,7 @@ if(hp < 1){
 	instance_destroy();
 	o_ene_shootP.onDel = true;
 }
-if(global.gameStop == false && onMoveState == true){
+if(global.onGamePause == false && onMoveState == true){
 	x += (dirX - x) / spd;
 	y += (dirY - y) / spd;
 }

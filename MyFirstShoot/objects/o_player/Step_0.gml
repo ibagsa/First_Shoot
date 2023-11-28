@@ -2,7 +2,7 @@
 
 depth = -(y/2);
 
-if(global.gameStop == false){
+if(global.onGamePause == false){
 	script_execute(state);
 }
 if(hp < 1){
