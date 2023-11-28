@@ -37,6 +37,7 @@
   },
   "resources": [
     {"id":{"name":"s_ene_shadow","path":"sprites/s_ene_shadow/s_ene_shadow.yy",},},
+    {"id":{"name":"o_textbox","path":"objects/o_textbox/o_textbox.yy",},},
     {"id":{"name":"o_player","path":"objects/o_player/o_player.yy",},},
     {"id":{"name":"o_ene_shoot1","path":"objects/o_ene_shoot1/o_ene_shoot1.yy",},},
     {"id":{"name":"ene_shadow_callpattern","path":"scripts/ene_shadow_callpattern/ene_shadow_callpattern.yy",},},
