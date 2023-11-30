@@ -14,6 +14,7 @@
     {"name":"ene_shadow3","order":3,"path":"scripts/ene_shadow3/ene_shadow3.yy",},
     {"name":"ene_shadow2","order":2,"path":"scripts/ene_shadow2/ene_shadow2.yy",},
     {"name":"o_eneP","order":1,"path":"objects/o_eneP/o_eneP.yy",},
+    {"name":"show_textbox","order":1,"path":"scripts/show_textbox/show_textbox.yy",},
     {"name":"Sequence1","order":1,"path":"sequences/Sequence1/Sequence1.yy",},
     {"name":"s_pla_shoot","order":3,"path":"sprites/s_pla_shoot/s_pla_shoot.yy",},
     {"name":"o_manager","order":1,"path":"objects/o_manager/o_manager.yy",},

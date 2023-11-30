@@ -52,6 +52,7 @@
     {"id":{"name":"ene_shadow3","path":"scripts/ene_shadow3/ene_shadow3.yy",},},
     {"id":{"name":"ene_shadow2","path":"scripts/ene_shadow2/ene_shadow2.yy",},},
     {"id":{"name":"o_eneP","path":"objects/o_eneP/o_eneP.yy",},},
+    {"id":{"name":"show_textbox","path":"scripts/show_textbox/show_textbox.yy",},},
     {"id":{"name":"o_ene_shadow","path":"objects/o_ene_shadow/o_ene_shadow.yy",},},
     {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},},
     {"id":{"name":"s_pla_shoot","path":"sprites/s_pla_shoot/s_pla_shoot.yy",},},
