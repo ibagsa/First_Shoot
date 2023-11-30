@@ -16,11 +16,6 @@ drawSay = "";
 drawCount = 0;
 chatDelay = 3;
 
-inChoice = OFF;
-choiceCount = 0;
-choiceThis = 0;
-choices = array_create(choiceCount,NULL);
-
 //Set temp for NPC text list
 temp_queue = 0;
 
