@@ -2,6 +2,11 @@
 
 #macro TXTBX o_textbox
 
+boxX1 = 64;
+boxX2 = 576;
+boxY1 = 640;
+boxY2 = 896;
+
 TextboxInfo = 0;
 show_textbox_info();
 

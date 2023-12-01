@@ -9,8 +9,4 @@ if(drawCount < string_length(mySay)){
 		audio_play_sound(snd_chat,1,false);
 	}
 	alarm[0] = chatDelay;
-} else{
-	if(inChoice == READY){
-		inChoice = ON;
-	}
 }
