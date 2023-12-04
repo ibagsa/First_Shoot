@@ -22,9 +22,9 @@ function show_textbox(profile){
 		ds_queue_enqueue(TXTBX.list_name,info.myname);
 	}
 	
-	if(TXTBX.mySay == NULL){
+	if(TXTBX.mySay == ""){
 		global.onGamePause = true;
-		with(o_textBox){
+		with(TXTBX){
 			mySay = ds_queue_dequeue(list_say);
 			myFace = ds_queue_dequeue(list_face);
 			myName = ds_queue_dequeue(list_name);

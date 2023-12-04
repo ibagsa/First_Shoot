@@ -5,8 +5,5 @@ if(drawCount < string_length(mySay)){
 	var atString = string_char_at(mySay, drawCount);
 	//show_debug_message(drawSay);
 	drawSay += atString;
-	if(atString != " "){
-		audio_play_sound(snd_chat,1,false);
-	}
 	alarm[0] = chatDelay;
 }

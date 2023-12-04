@@ -1,4 +1,5 @@
 ///@desc Draw interface
+
 //Draw textbox
 draw_set_halign(fa_left);
 draw_set_color(c_black);
