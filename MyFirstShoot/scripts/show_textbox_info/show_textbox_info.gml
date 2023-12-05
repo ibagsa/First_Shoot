@@ -17,11 +17,11 @@ function show_textbox_info(){
 			case 0:
 			TextboxInfo[i] = new textbox_info("",noone); break;
 			case 1: 
-			TextboxInfo[i] = new textbox_info("왕자"); break;
+			TextboxInfo[i] = new textbox_info("왕자",s_face_pres); break;
 			case 2:
-			TextboxInfo[i] = new textbox_info("공주"); break;
+			TextboxInfo[i] = new textbox_info("공주",s_face_pres); break;
 			case 3:
-			TextboxInfo[i] = new textbox_info("마녀"); break;
+			TextboxInfo[i] = new textbox_info("마녀",s_face_pres); break;
 			default: break;
 		}
 	}

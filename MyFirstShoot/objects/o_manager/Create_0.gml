@@ -6,4 +6,4 @@
 
 global.onGamePause = false;
 
-show_textbox(1,"테스트 테스트 테스트 테스트 테스트 테스트 테스트");
+show_textbox(0,"테스트 테스트 테스트 테스트 테스트 테스트 테스트");
