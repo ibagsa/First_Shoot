@@ -3,7 +3,7 @@
 ///@arg faceType
 ///@arg msg...
 
-//Activates a o_textBox based on the data you have received.
+//Activates a o_textbox based on the data you have received.
 //입력받은 데이터를 기반으로 o_textbox를 활성화합니다.
 
 function show_textbox(profile){
