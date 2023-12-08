@@ -6,8 +6,8 @@ function show_textbox_info(){
 	function textbox_info(txt) constructor{
 		myname = txt;
 		myface[0] = noone;
-		for(var i=0; i<(argument_count-1); i++){
-			myface[i] = argument[i+1];
+		for(var i=1; i<(argument_count); i++){
+			myface[i-1] = argument[i];
 		}
 	}
 	

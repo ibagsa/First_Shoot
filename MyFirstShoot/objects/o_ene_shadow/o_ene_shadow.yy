@@ -8,7 +8,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"o_eneP","path":"objects/o_eneP/o_eneP.yy",},"propertyId":{"name":"profile","path":"objects/o_eneP/o_eneP.yy",},"value":"3",},
+  ],
   "parent": {
     "name": "Enemy",
     "path": "folders/객체/Enemy.yy",
