@@ -1,4 +1,4 @@
-///@desc show_texxtbox_info
+///@desc show_textbox_info
 
 //Use the structure to save the character profile
 
@@ -11,18 +11,8 @@ function show_textbox_info(){
 		}
 	}
 	
-	var maxInfo = 4;
-	for(var i=0; i < maxInfo; i++){
-		switch(i){
-			case 0:
-			TextboxInfo[i] = new textbox_info("",noone); break;
-			case 1: 
-			TextboxInfo[i] = new textbox_info("왕자",s_face_pres); break;
-			case 2:
-			TextboxInfo[i] = new textbox_info("공주",s_face_pres); break;
-			case 3:
-			TextboxInfo[i] = new textbox_info("마녀",s_face_pres); break;
-			default: break;
-		}
-	}
+	TextboxInfo[0] = new textbox_info("",noone);
+	TextboxInfo[1] = new textbox_info("왕자",s_face_pres);
+	TextboxInfo[2] = new textbox_info("공주",s_face_pres);
+	TextboxInfo[3] = new textbox_info("마녀",s_face_pres);
 }

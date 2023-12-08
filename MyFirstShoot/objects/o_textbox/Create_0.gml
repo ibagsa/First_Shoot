@@ -2,13 +2,14 @@
 
 #macro TXTBX o_textbox
 
+TextboxInfo = 0;
+show_textbox_info();
+
+//Draw position
 boxX1 = 64;
 boxX2 = 576;
 boxY1 = 640;
 boxY2 = 896;
-
-TextboxInfo = 0;
-show_textbox_info();
 
 list_say = ds_queue_create();
 list_face = ds_queue_create();
