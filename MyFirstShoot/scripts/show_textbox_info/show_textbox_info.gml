@@ -1,9 +1,10 @@
 ///@desc show_textbox_info
 
 //Use the structure to save the character profile
+//구조체를 활용해 캐릭터 프로필 정보를 저장합니다.
 
 function show_textbox_info(){
-	function textbox_info(txt) constructor{
+	 function Textboxinfo(txt) constructor{
 		myname = txt;
 		myface[0] = noone;
 		for(var i=1; i<(argument_count); i++){
@@ -11,8 +12,8 @@ function show_textbox_info(){
 		}
 	}
 	
-	TextboxInfo[0] = new textbox_info("",noone);
-	TextboxInfo[1] = new textbox_info("왕자",s_face_pres);
-	TextboxInfo[2] = new textbox_info("공주",s_face_pres);
-	TextboxInfo[3] = new textbox_info("마녀",s_face_pres);
+	textboxInfo[0] = new Textboxinfo("",noone);
+	textboxInfo[1] = new Textboxinfo("왕자",s_face_pres);
+	textboxInfo[2] = new Textboxinfo("공주",s_face_pres);
+	textboxInfo[3] = new Textboxinfo("마녀",s_face_pres);
 }

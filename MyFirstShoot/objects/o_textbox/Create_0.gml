@@ -2,7 +2,7 @@
 
 #macro TXTBX o_textbox
 
-TextboxInfo = 0;
+textboxInfo = 0;
 show_textbox_info();
 
 //Draw position

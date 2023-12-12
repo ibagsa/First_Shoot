@@ -11,4 +11,4 @@ global.drawHitbox = false;
 state = move_state;
 alarm[0] = shootDelay * FPS;
 
-show_textbox(profile,"테스트 테스트 테스트 테스트 테스트 테스트 테스트");
+show_textbox(profile,"테스트 테스트 테스트 테스트 테스트 테스트 테스트","테스트 테스트 테스트 테스트 테스트 테스트 테스트");
