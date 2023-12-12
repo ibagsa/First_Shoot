@@ -7,7 +7,7 @@
 //입력받은 데이터를 기반으로 o_textbox를 활성화합니다.
 
 function show_textbox(profile){
-	var info = TXTBX.TextboxInfo[profile];
+	var info = TXTBX.textboxInfo[profile];
 	var textStart = 1;
 	var faceType = 0;
 	
