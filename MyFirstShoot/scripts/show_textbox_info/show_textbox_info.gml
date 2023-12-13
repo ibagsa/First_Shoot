@@ -1,4 +1,4 @@
-///@desc show_textbox_info
+///@desc show_textbox_info()
 
 //Use the structure to save the character profile
 //구조체를 활용해 캐릭터 프로필 정보를 저장합니다.
