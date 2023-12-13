@@ -7,10 +7,10 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_7CE8DB83","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_506E795","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_2FE7E4F1","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2E5D44CC","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_506E795","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_7CE8DB83","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2FE7E4F1","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd": false,
   "layers": [
