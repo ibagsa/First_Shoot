@@ -13,7 +13,7 @@ function show_textbox_info(){
 	}
 	
 	textboxInfo[0] = new textbox_info("",noone);
-	textboxInfo[1] = new textbox_info("왕자",s_face_pres);
-	textboxInfo[2] = new textbox_info("공주",s_face_pres);
-	textboxInfo[3] = new textbox_info("마녀",s_face_pres);
+	textboxInfo[1] = new textbox_info("왕자",noone);
+	textboxInfo[2] = new textbox_info("공주",noone);
+	textboxInfo[3] = new textbox_info("마녀",noone);
 }
