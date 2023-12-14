@@ -12,7 +12,7 @@ function ene_shadow1(){
 	var size = 144;
 	var moveRange = 200;
 	
-	if(global.gameStop == false){
+	if(global.onGamePause == false){
 		switch(patternCount){
 			case 0:
 			onMoveState = true;

@@ -18,8 +18,8 @@ function show_textbox(profile){
 	
 	for(var i=textStart; i<argument_count; i++){
 		ds_queue_enqueue(TXTBX.list_say, argument[i]);
-		ds_queue_enqueue(TXTBX.list_face,info.myface[faceType]);
-		ds_queue_enqueue(TXTBX.list_name,info.myname);
+		ds_queue_enqueue(TXTBX.list_face, info.myface[faceType]);
+		ds_queue_enqueue(TXTBX.list_name, info.myname);
 	}
 	
 	if(TXTBX.mySay == ""){

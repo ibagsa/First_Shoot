@@ -22,8 +22,5 @@ drawSay = "";
 drawCount = 0;
 chatDelay = 3;
 
-//Set temp for NPC text list
-temp_queue = 0;
-
 chatOn = false;
 visible = false;

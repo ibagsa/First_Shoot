@@ -13,7 +13,7 @@ function ene_shadow2(){
 	
 	var delayStack = 0;
 	
-	if(global.gameStop == false){
+	if(global.onGamePause == false){
 		switch(patternCount){
 			case 0:
 			onMoveState = true;
