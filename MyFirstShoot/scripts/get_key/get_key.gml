@@ -1,7 +1,7 @@
 ///@desc get_key()
 
-//Enter the key
-//키를 입력받습니다.
+//Check entered key.
+//키보드 입력 여부를 확인합니다.
 
 function get_key(){
 	lKey = max(keyboard_check(vk_left),keyboard_check(ord("A")),0);
