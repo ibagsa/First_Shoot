@@ -1,7 +1,7 @@
 ///@desc ene_shadow2()
 
 //Pattern 2.
-//2번 패턴.
+//2번 패턴. 
 
 function ene_shadow2(){
 	var patternDelay = 1.75;
