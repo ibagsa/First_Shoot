@@ -30,6 +30,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"타임라인","folderPath":"folders/타임라인.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"필기","folderPath":"folders/필기.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"확장 기능","folderPath":"folders/확장 기능.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"item","folderPath":"folders/스프라이트/item.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,

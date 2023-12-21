@@ -2,6 +2,7 @@
   "FolderOrderSettings": [
     {"name":"textbox","order":2,"path":"folders/스크립트/textbox.yy",},
     {"name":"face","order":7,"path":"folders/스프라이트/face.yy",},
+    {"name":"item","order":8,"path":"folders/스프라이트/item.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"s_ene_shadow","order":2,"path":"sprites/s_ene_shadow/s_ene_shadow.yy",},
