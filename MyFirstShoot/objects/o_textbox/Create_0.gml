@@ -1,7 +1,5 @@
 /// @desc Initalize
 
-#macro TXTBX o_textbox
-
 textboxInfo = 0;
 show_textbox_info();
 

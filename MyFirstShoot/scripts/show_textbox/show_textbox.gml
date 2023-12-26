@@ -30,6 +30,7 @@ function show_textbox(profile){
 			myName = ds_queue_dequeue(list_name);
 			chatOn = true;
 			visible = true;
+			PLAYER.enterBuf = true;
 			alarm[0] = chatDelay;
 		}
 	}

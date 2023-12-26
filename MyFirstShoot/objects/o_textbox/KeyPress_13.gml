@@ -7,12 +7,13 @@ if(alarm[0] == -1){//알람이 값을 받지 못하면 -1이 됨.
 		myName = ds_queue_dequeue(list_name);
 		alarm[0] = chatDelay;
 	} else{
+		keyboard_clear(vk_enter);
 		mySay = "";
 		myName = "";
 		myFace = noone;
 		visible = false;
-		global.onGamePause = false;
 		chatOn = false;
+		global.onGamePause = false;
 	}
 	drawSay = "";
 	drawCount = 0;
