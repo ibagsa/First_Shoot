@@ -60,6 +60,7 @@
     {"id":{"name":"o_ene_shadow","path":"objects/o_ene_shadow/o_ene_shadow.yy",},},
     {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},},
     {"id":{"name":"s_pla_shoot","path":"sprites/s_pla_shoot/s_pla_shoot.yy",},},
+    {"id":{"name":"set_state","path":"scripts/set_state/set_state.yy",},},
     {"id":{"name":"o_manager","path":"objects/o_manager/o_manager.yy",},},
     {"id":{"name":"move_state","path":"scripts/move_state/move_state.yy",},},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},},
