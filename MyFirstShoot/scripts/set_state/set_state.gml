@@ -1,6 +1,6 @@
 ///@desc set_state
 
-//Set player's basic state
+//Set player's basic state.
 //플레이어의 기본 스테이트를 설정합니다.
 
 function set_state(){
@@ -17,7 +17,7 @@ function set_state(){
 ///@desc copy_state
 ///@arg obj
 
-//
+//Copy and save the player's state or set it up anew.
 //플레이어의 스텟을 복사하여 저장하거나 새로 설정합니다.
 
 function copy_state(obj){

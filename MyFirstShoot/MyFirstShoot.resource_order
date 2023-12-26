@@ -18,6 +18,7 @@
     {"name":"o_eneP","order":1,"path":"objects/o_eneP/o_eneP.yy",},
     {"name":"show_textbox","order":1,"path":"scripts/show_textbox/show_textbox.yy",},
     {"name":"Sequence1","order":1,"path":"sequences/Sequence1/Sequence1.yy",},
+    {"name":"get_ability","order":4,"path":"scripts/get_ability/get_ability.yy",},
     {"name":"s_pla_shoot","order":3,"path":"sprites/s_pla_shoot/s_pla_shoot.yy",},
     {"name":"set_state","order":3,"path":"scripts/set_state/set_state.yy",},
     {"name":"o_manager","order":1,"path":"objects/o_manager/o_manager.yy",},

@@ -9,5 +9,12 @@
 global.onGamePause = false;
 global.drawHitbox = false;
 
+//Room coordinate
+roomX = room_width;
+roomY = room_height;
+
 //Save state
 set_state();
+
+//Get ability
+chooseOn = true;
