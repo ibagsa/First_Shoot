@@ -6,6 +6,7 @@
   ],
   "ResourceOrderSettings": [
     {"name":"s_ene_shadow","order":2,"path":"sprites/s_ene_shadow/s_ene_shadow.yy",},
+    {"name":"s_desire","order":2,"path":"sprites/s_desire/s_desire.yy",},
     {"name":"s_salvation","order":1,"path":"sprites/s_salvation/s_salvation.yy",},
     {"name":"o_textbox","order":3,"path":"objects/o_textbox/o_textbox.yy",},
     {"name":"ene_shadow_callpattern","order":1,"path":"scripts/ene_shadow_callpattern/ene_shadow_callpattern.yy",},
@@ -19,7 +20,6 @@
     {"name":"o_eneP","order":1,"path":"objects/o_eneP/o_eneP.yy",},
     {"name":"show_textbox","order":1,"path":"scripts/show_textbox/show_textbox.yy",},
     {"name":"Sequence1","order":1,"path":"sequences/Sequence1/Sequence1.yy",},
-    {"name":"s_desire","order":2,"path":"sprites/s_desire/s_desire.yy",},
     {"name":"get_ability","order":4,"path":"scripts/get_ability/get_ability.yy",},
     {"name":"s_pla_shoot","order":3,"path":"sprites/s_pla_shoot/s_pla_shoot.yy",},
     {"name":"set_state","order":3,"path":"scripts/set_state/set_state.yy",},
