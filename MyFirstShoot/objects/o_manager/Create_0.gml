@@ -17,4 +17,4 @@ roomY = room_height;
 set_state();
 
 //Get ability
-chooseOn = true;
+chooseOn = false;

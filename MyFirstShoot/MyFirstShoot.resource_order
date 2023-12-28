@@ -24,6 +24,7 @@
     {"name":"s_pla_shoot","order":3,"path":"sprites/s_pla_shoot/s_pla_shoot.yy",},
     {"name":"set_state","order":3,"path":"scripts/set_state/set_state.yy",},
     {"name":"o_manager","order":1,"path":"objects/o_manager/o_manager.yy",},
+    {"name":"ability_state","order":5,"path":"scripts/ability_state/ability_state.yy",},
     {"name":"o_ene_shootP","order":2,"path":"objects/o_ene_shootP/o_ene_shootP.yy",},
     {"name":"s_ene_shoot2","order":5,"path":"sprites/s_ene_shoot2/s_ene_shoot2.yy",},
   ],

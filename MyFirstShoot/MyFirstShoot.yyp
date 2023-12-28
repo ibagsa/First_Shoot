@@ -68,6 +68,7 @@
     {"id":{"name":"move_state","path":"scripts/move_state/move_state.yy",},},
     {"id":{"name":"s_player","path":"sprites/s_player/s_player.yy",},},
     {"id":{"name":"Sequence2","path":"sequences/Sequence2/Sequence2.yy",},},
+    {"id":{"name":"ability_state","path":"scripts/ability_state/ability_state.yy",},},
     {"id":{"name":"s_patience","path":"sprites/s_patience/s_patience.yy",},},
     {"id":{"name":"o_ene_shootP","path":"objects/o_ene_shootP/o_ene_shootP.yy",},},
     {"id":{"name":"s_ene_shoot2","path":"sprites/s_ene_shoot2/s_ene_shoot2.yy",},},
