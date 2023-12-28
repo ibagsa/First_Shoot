@@ -13,4 +13,7 @@ if(chooseOn){
 	draw_roundrect(120, 150, 520, 315, true);
 	draw_roundrect(120, 397.5, 520, 562.5, true);
 	draw_roundrect(120, 645, 520, 810, true); //120    165  82.5
+	
+	draw_set_color(c_black);
+	draw_roundrect(120, (150+82.5*(nowChoose*3)), 520, (315+82.5*(nowChoose*3)), true);
 }

@@ -9,5 +9,10 @@ function get_key(){
 	uKey = max(keyboard_check(vk_up),keyboard_check(ord("W")),0);
 	dkey = max(keyboard_check(vk_down),keyboard_check(ord("S")),0);
 	
+	lKeyPressed = max(keyboard_check_pressed(vk_left),keyboard_check_pressed(ord("A")),0);
+	rKeyPressed = max(keyboard_check_pressed(vk_right),keyboard_check_pressed(ord("D")),0);
+	uKeyPressed = max(keyboard_check_pressed(vk_up),keyboard_check_pressed(ord("W")),0);
+	dKeyPressed = max(keyboard_check_pressed(vk_down),keyboard_check_pressed(ord("S")),0);
+	
 	actKey = max(keyboard_check(vk_space),0);
 }
