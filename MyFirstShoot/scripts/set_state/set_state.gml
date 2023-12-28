@@ -5,7 +5,9 @@
 
 function set_state(){
 	hp = 5;
+	mHp = 5;
 	shield = 1;
+	mShield = 1;
 	shieldRe = 0;
 	spd = 4;
 	shootDelay = 0.15;
@@ -22,7 +24,9 @@ function set_state(){
 
 function copy_state(obj){
 	hp = obj.hp;
-	shield = obj.shield;
+	mHp = obj.mHp;
+	mShield = obj.mShield;
+	shield = mShield;
 	shieldRe = obj.shieldRe;
 	spd = obj.spd;
 	shootDelay = obj.shootDelay;
