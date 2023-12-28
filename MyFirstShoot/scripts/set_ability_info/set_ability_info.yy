@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "get_ability",
+  "name": "set_ability_info",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

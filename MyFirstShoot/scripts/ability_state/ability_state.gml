@@ -2,8 +2,8 @@
 ///@arg id
 ///@arg obj
 
-//Save ability information
-//능력 정보를 저장합니다.
+//
+//능력의 효과를 설정합니다.
 
 function ability_state(idd, obj){
 	switch(idd){
