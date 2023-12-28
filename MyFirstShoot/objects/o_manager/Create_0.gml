@@ -17,5 +17,12 @@ roomY = room_height;
 set_state();
 
 //Get ability
+abilityId = array_create(3,0);
 chooseOn = true;
 nowChoose = 0;
+
+temp = randomize();
+for(var i = 0; i<array_length(abilityId); i++){
+	temp = random_range(0,5);
+	abilityId[i] = temp;
+}

@@ -1,8 +1,8 @@
-///@desc ability_state
+///@desc ability_state()
 ///@arg id
 ///@arg obj
 
-//
+//Save ability information
 //능력 정보를 저장합니다.
 
 function ability_state(idd, obj){
