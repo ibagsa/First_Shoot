@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "s_desire",
+  "name": "s_hope",
   "bbox_bottom": 31,
-  "bbox_left": 2,
-  "bbox_right": 30,
-  "bbox_top": 0,
+  "bbox_left": 6,
+  "bbox_right": 26,
+  "bbox_top": 4,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -20,8 +20,8 @@
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"801773e5-990f-4592-9d89-cf959ab339a2","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":true,},
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"88be5e48-d4d8-4832-a0cd-8d2014a0b9dd","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":30.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"561cb253-d963-4cf2-8ae8-427bb542bf45","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"1e0c9a6f-9f37-4797-8dd4-d33f3e65cbb7","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":30.0,"visible":true,},
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"5e37585e-8ac6-40dd-a88d-a67702b42722","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
@@ -34,7 +34,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "s_desire",
+    "name": "s_hope",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -56,7 +56,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"af42b590-0c75-4d55-b889-069eaded6b52","path":"sprites/s_desire/s_desire.yy",},},},"Disabled":false,"id":"67baff90-83c2-4bc5-a285-4e0720fe74ec","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"af42b590-0c75-4d55-b889-069eaded6b52","path":"sprites/s_hope/s_hope.yy",},},},"Disabled":false,"id":"32797f6b-8356-492b-b212-9c52ea58725e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
