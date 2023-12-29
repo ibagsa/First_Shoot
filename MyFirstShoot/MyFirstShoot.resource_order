@@ -1,9 +1,9 @@
 {
   "FolderOrderSettings": [
+    {"name":"ability","order":6,"path":"folders/스크립트/ability.yy",},
     {"name":"textbox","order":2,"path":"folders/스크립트/textbox.yy",},
     {"name":"ability","order":8,"path":"folders/스프라이트/ability.yy",},
     {"name":"face","order":7,"path":"folders/스프라이트/face.yy",},
-    {"name":"ability","order":6,"path":"folders/스크립트/ability.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"s_ene_shadow","order":2,"path":"sprites/s_ene_shadow/s_ene_shadow.yy",},

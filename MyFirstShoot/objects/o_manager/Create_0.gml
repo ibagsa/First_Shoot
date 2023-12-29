@@ -26,6 +26,7 @@ nowChoose = 0;
 
 temp = randomize();
 for(var i = 0; i<array_length(abilityId); i++){
-	temp = random_range(0,5);
+	
+	temp = irandom(5);
 	abilityId[i] = temp;
 }
