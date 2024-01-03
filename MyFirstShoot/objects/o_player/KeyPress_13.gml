@@ -1,7 +1,7 @@
 /// @desc Draw hitbox
 
 if(global.onGamePause == false){
-	if(enterBuf == false){
+	if(enterBuf == true){
 		if(global.drawHitbox == true){
 			global.drawHitbox = false;
 		} else{
