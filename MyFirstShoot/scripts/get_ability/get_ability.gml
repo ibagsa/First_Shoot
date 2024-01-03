@@ -7,4 +7,15 @@ function get_ability(){
 	global.onGamePause = true;
 	MANAGER.chooseOn = true;
 	
+	for(var i = 0; i<array_length(MANAGER.abilityId); i++){
+		MANAGER.abilityId[i] = 0;
+	}
+	
+	for( ; ;){
+		MANAGER.abilityId[0] = irandom(5);
+		MANAGER.abilityId[1] = irandom(5);
+		MANAGER.abilityId[2] = irandom(5);
+		
+		if(MANAGER.abilityId[0] != MANAGER.abilityId[1] && MANAGER.abilityId[1] != MANAGER.abilityId[2] && MANAGER.abilityId[2] != MANAGER.abilityId[0]) break;
+	}
 }

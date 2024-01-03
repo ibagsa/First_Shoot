@@ -20,13 +20,6 @@ set_state();
 abilityData = 0;
 set_ability_info();
 
-abilityId = array_create(3,0);
-chooseOn = true;
+abilityId = array_create(3,randomize());
+chooseOn = false;
 nowChoose = 0;
-
-temp = randomize();
-for(var i = 0; i<array_length(abilityId); i++){
-	
-	temp = irandom(5);
-	abilityId[i] = temp;
-}

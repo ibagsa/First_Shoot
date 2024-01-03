@@ -3,7 +3,7 @@
 //State
 onMoveState = false;
 type = 0;
-hp = 75;
+hp = 15;
 dirX = 0;
 dirY = 0;
 spd = 25;
