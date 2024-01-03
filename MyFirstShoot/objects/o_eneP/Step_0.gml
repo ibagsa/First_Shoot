@@ -3,7 +3,7 @@
 depth = -y;
 if(hp < 1){
 	instance_destroy();
-	o_ene_shootP.onDel = true;
+	if(instance_exists(o_ene_shootP)) o_ene_shootP.onDel = true;
 	get_ability();
 }
 if(global.onGamePause == false && onMoveState == true){
