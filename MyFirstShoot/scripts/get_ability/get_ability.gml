@@ -11,6 +11,8 @@ function get_ability(){
 		MANAGER.abilityId[i] = 0;
 	}
 	
+	MANAGER.alarm[0] = FPS/60;
+	
 	for( ; ;){
 		MANAGER.abilityId[0] = irandom(5);
 		MANAGER.abilityId[1] = irandom(5);

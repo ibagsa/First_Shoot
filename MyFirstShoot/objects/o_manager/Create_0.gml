@@ -23,3 +23,6 @@ set_ability_info();
 abilityId = array_create(3,randomize());
 chooseOn = false;
 nowChoose = 0;
+
+//ChooseBox alpha
+chooseAlpha = 0;
