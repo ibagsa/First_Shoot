@@ -15,6 +15,7 @@ if(chooseOn){
 	draw_roundrect(120, 645, 520, 810, true); //120    165  82.5
 	for(var i = 0; i<array_length(abilityId); i++){
 		draw_sprite_ext(abilityData[abilityId[i]].abSpr,-1,128,(232.5+82.5*(i*3)), 4, 4, 0, image_blend, image_alpha);
+		draw_text_ext(0,0,abilityData[abilityId[i]].abName,0,480);
 	}
 	
 	draw_set_color(c_black);
