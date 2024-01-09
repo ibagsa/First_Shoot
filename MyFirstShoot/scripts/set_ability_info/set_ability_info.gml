@@ -20,5 +20,5 @@ function set_ability_info(){
 	abilityData[6] = new ability_info(6, s_salvation, "구원", "이 가련한 자를 구원하소서!\n즉시 체력을 회복합니다."); //구원 salvation
 	abilityData[7] = new ability_info(7, s_hope, "희망", "어둠 속에 한 줄기 희망을!\n사용하면 잠시 무적이 됩니다."); //희망 hope
 	abilityData[8] = new ability_info(8, s_scream, "절규", "들어라, 어둠에 잠식당한 나의 한 맺힌 절규를!\n사용하면 잠시 눈물이 강화됩니다."); //절규 scream
-	abilityData[9] = new ability_info(9, s_heartbreak, "비통", "\n사용하면 맵의 모든 눈물이 소멸합니다."); //비통 heartbreak
+	abilityData[9] = new ability_info(9, s_heartbreak, "비통", "나의 비통함을... 너희도 느끼게 해 주마!\n사용하면 맵의 모든 눈물이 소멸합니다."); //비통 heartbreak
 }
