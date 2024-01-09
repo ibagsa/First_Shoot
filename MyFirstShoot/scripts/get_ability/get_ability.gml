@@ -14,9 +14,9 @@ function get_ability(){
 	MANAGER.alarm[0] = FPS/60;
 	
 	for( ; ;){
-		MANAGER.abilityId[0] = irandom(5);
-		MANAGER.abilityId[1] = irandom(5);
-		MANAGER.abilityId[2] = irandom(5);
+		MANAGER.abilityId[0] = irandom(9);
+		MANAGER.abilityId[1] = irandom(9);
+		MANAGER.abilityId[2] = irandom(9);
 		
 		if(MANAGER.abilityId[0] != MANAGER.abilityId[1] && MANAGER.abilityId[1] != MANAGER.abilityId[2] && MANAGER.abilityId[2] != MANAGER.abilityId[0]) break;
 	}
