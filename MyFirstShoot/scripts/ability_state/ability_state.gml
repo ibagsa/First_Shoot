@@ -24,15 +24,15 @@ function ability_state(idd, obj){
 		obj.shootDelay -= 0.025;
 		break;
 		
-		case 4: //체념   //shootLine+
+		case 4: //체념 resign  //shootLine+
 		
 		break;
 		
-		case 5: //용기 brave   //spd+
+		case 5: //용기 courage   //spd+
 		
 		break;
 		
-		case 6: //구원 salvation   //
+		case 6: //구원 salvation   //hp=mhp
 		
 		break;
 		
@@ -40,11 +40,11 @@ function ability_state(idd, obj){
 		
 		break;
 		
-		case 8: //절규   //
+		case 8: //절규 scream  //
 		
 		break;
 		
-		case 9: //비통   //
+		case 9: //비통 heartbreak  //
 		
 		break;
 		
