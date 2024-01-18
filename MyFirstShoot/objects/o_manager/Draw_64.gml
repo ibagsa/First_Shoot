@@ -2,7 +2,7 @@
 
 //Draw save ability
 draw_set_color(c_white);
-draw_roundrect(588, 908, 628, 948, true);
+draw_roundrect(588, 908, 626, 946, true);
 if(itemType != 0){
 	draw_sprite_ext(abilityData[itemType].abSpr,-1,592, 928, 1, 1, 0, image_blend, image_alpha);
 }
