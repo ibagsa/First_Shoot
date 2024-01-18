@@ -20,4 +20,6 @@ function get_ability(){
 		
 		if(MANAGER.abilityId[0] != MANAGER.abilityId[1] && MANAGER.abilityId[1] != MANAGER.abilityId[2] && MANAGER.abilityId[2] != MANAGER.abilityId[0]) break;
 	}
+	
+	PLAYER.enterBuf = true;
 }
