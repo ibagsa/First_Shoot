@@ -17,6 +17,9 @@ roomY = room_height;
 abilityData = 0;
 set_ability_info();
 
+//Ability type
+itemType = 0;
+
 abilityId = array_create(3,randomize());
 chooseOn = false;
 nowChoose = 0;

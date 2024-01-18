@@ -37,15 +37,15 @@ function ability_state(idd, obj){
 		break;
 		
 		case 7: //희망 hope   //
-		obj.saveAbil = 7;
+		MANAGER.itemType = 7;
 		break;
 		
 		case 8: //절규 scream  //
-		obj.saveAbil = 8;
+		MANAGER.itemType = 8;
 		break;
 		
 		case 9: //비통 heartbreak  //
-		obj.saveAbil = 9;
+		MANAGER.itemType = 9;
 		break;
 		
 		default: break;

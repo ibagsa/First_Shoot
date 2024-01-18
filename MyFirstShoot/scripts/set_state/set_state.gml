@@ -13,5 +13,4 @@ function set_state(){
 	shootDelay = 0.15;
 	shootLine = 1;
 	profile = 1;
-	saveAbil = 0;
 }
