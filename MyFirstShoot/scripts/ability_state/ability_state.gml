@@ -2,7 +2,7 @@
 ///@arg id
 ///@arg obj
 
-//
+//Sets ability.
 //능력의 효과를 설정합니다.
 
 function ability_state(idd, obj){
@@ -21,7 +21,7 @@ function ability_state(idd, obj){
 		break;
 		
 		case 3: //절망 despair //shootDelay-
-		obj.shootDelay -= 0.025;
+		obj.shootDelay -= 0.1; //0.025
 		break;
 		
 		case 4: //체념 resign  //shootLine+
@@ -29,23 +29,23 @@ function ability_state(idd, obj){
 		break;
 		
 		case 5: //용기 courage   //spd+
-		
+		obj.spd += 5; //1
 		break;
 		
 		case 6: //구원 salvation   //hp=mhp
-		
+		obj.hp = obj.mHp;
 		break;
 		
 		case 7: //희망 hope   //
-		
+		obj.saveAbil = 7;
 		break;
 		
 		case 8: //절규 scream  //
-		
+		obj.saveAbil = 8;
 		break;
 		
 		case 9: //비통 heartbreak  //
-		
+		obj.saveAbil = 9;
 		break;
 		
 		default: break;

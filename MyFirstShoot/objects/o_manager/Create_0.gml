@@ -13,9 +13,6 @@ global.drawHitbox = false;
 roomX = room_width;
 roomY = room_height;
 
-//Save state
-set_state();
-
 //Get ability
 abilityData = 0;
 set_ability_info();

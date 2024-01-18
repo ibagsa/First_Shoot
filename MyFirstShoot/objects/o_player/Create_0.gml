@@ -1,7 +1,7 @@
 /// @desc Initalize
 
-//State
-copy_state(MANAGER);
+//Set state
+set_state();
 
 state = move_state;
 alarm[0] = shootDelay * FPS;

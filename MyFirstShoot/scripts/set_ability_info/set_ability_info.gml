@@ -1,6 +1,6 @@
 ///@desc set_ability_info
 
-//Save ability information
+//Save ability information.
 //능력 정보를 저장합니다.
 
 function set_ability_info(){
