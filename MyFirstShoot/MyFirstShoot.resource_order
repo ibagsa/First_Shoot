@@ -13,6 +13,7 @@
     {"name":"s_willingness","order":2,"path":"sprites/s_willingness/s_willingness.yy",},
     {"name":"s_salvation","order":1,"path":"sprites/s_salvation/s_salvation.yy",},
     {"name":"o_textbox","order":3,"path":"objects/o_textbox/o_textbox.yy",},
+    {"name":"s_lostlife","order":2,"path":"sprites/s_lostlife/s_lostlife.yy",},
     {"name":"s_desire","order":5,"path":"sprites/s_desire/s_desire.yy",},
     {"name":"ene_shadow_callpattern","order":1,"path":"scripts/ene_shadow_callpattern/ene_shadow_callpattern.yy",},
     {"name":"o_ene_shoot2","order":1,"path":"objects/o_ene_shoot2/o_ene_shoot2.yy",},
