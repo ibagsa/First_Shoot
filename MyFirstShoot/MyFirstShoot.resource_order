@@ -4,8 +4,10 @@
     {"name":"textbox","order":2,"path":"folders/스크립트/textbox.yy",},
     {"name":"ability","order":8,"path":"folders/스프라이트/ability.yy",},
     {"name":"face","order":7,"path":"folders/스프라이트/face.yy",},
+    {"name":"life","order":10,"path":"folders/스프라이트/life.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"s_shield","order":1,"path":"sprites/s_shield/s_shield.yy",},
     {"name":"s_ene_shadow","order":2,"path":"sprites/s_ene_shadow/s_ene_shadow.yy",},
     {"name":"s_courage","order":7,"path":"sprites/s_courage/s_courage.yy",},
     {"name":"s_willingness","order":2,"path":"sprites/s_willingness/s_willingness.yy",},

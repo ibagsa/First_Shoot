@@ -32,6 +32,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"타임라인","folderPath":"folders/타임라인.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"필기","folderPath":"folders/필기.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"확장 기능","folderPath":"folders/확장 기능.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"life","folderPath":"folders/스프라이트/life.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -40,6 +41,7 @@
     "IDEVersion": "2023.11.1.129",
   },
   "resources": [
+    {"id":{"name":"s_shield","path":"sprites/s_shield/s_shield.yy",},},
     {"id":{"name":"s_ene_shadow","path":"sprites/s_ene_shadow/s_ene_shadow.yy",},},
     {"id":{"name":"s_courage","path":"sprites/s_courage/s_courage.yy",},},
     {"id":{"name":"s_willingness","path":"sprites/s_willingness/s_willingness.yy",},},
@@ -65,6 +67,7 @@
     {"id":{"name":"s_hope","path":"sprites/s_hope/s_hope.yy",},},
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},},
     {"id":{"name":"show_textbox","path":"scripts/show_textbox/show_textbox.yy",},},
+    {"id":{"name":"s_life","path":"sprites/s_life/s_life.yy",},},
     {"id":{"name":"s_despair","path":"sprites/s_despair/s_despair.yy",},},
     {"id":{"name":"o_ene_shadow","path":"objects/o_ene_shadow/o_ene_shadow.yy",},},
     {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},},
