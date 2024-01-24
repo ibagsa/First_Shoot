@@ -7,3 +7,5 @@ state = move_state;
 alarm[0] = shootDelay * FPS;
 
 enterBuf = false; //Set enter buffer
+
+lifeAlpha = 1; //Set life alpha for draw
