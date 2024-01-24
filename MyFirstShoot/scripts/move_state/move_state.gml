@@ -24,7 +24,7 @@ function move_state(){
 	if((x+moveX) < 0 || (x+moveX) > room_width){
 		moveX = 0;
 	}
-	if((y+moveY) < (room_height/2) || (y+moveY) > (room_height-(PLAYER.sprite_height/2))){
+	if((y+moveY) < (room_height/2) || (y+moveY) > ((room_height-(PLAYER.sprite_height/2))-80)){
 		moveY = 0;
 	}
 	

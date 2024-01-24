@@ -1,5 +1,11 @@
 ///@desc Draw ability
 
+//Draw interface
+draw_set_color(c_black);
+draw_set_alpha(0.75);
+draw_rectangle(0, 888 ,640, 960, false);
+draw_set_alpha(1);
+
 //Draw save ability
 draw_set_color(c_white);
 draw_roundrect(588, 908, 626, 946, true);
