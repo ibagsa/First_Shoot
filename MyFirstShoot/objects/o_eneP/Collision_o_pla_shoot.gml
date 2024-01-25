@@ -1,3 +1,3 @@
 /// @desc Hit pla_shoot
 
-hp--;
+hp -= PLAYER.atkDmg;
