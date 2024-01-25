@@ -8,7 +8,7 @@ function set_state(){
 	mHp = 5;
 	shield = 1;
 	mShield = 1;
-	shieldRe = 0;
+	shieldRe = 30;
 	spd = 2;
 	shootDelay = 0.15;
 	shootLine = 1;
