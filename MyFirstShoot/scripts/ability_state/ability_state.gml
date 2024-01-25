@@ -14,6 +14,7 @@ function ability_state(idd, obj){
 		
 		case 1: //의지 willingness //mShield+
 		obj.mShield += 1;
+		obj.shield = obj.mShield;
 		break;
 		
 		case 2: //염원 desire //shieldRe+
