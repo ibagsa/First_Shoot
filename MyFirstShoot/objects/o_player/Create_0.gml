@@ -6,7 +6,7 @@ set_state();
 state = move_state;
 alarm[0] = shootDelay * FPS;
 
-atkDmg = 2; //All tears dmg
+atkDmg = 1; //All tears dmg
 
 enterBuf = false; //Set enter buffer
 
