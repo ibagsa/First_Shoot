@@ -10,7 +10,7 @@ function ene_shadow1(){
 	var shootType = o_ene_shoot2;
 	var shootDelay = 0;
 	var size = 144;
-	var moveRange = 200;
+	var moveRange = 160;
 	
 	if(global.onGamePause == false){
 		switch(patternCount){

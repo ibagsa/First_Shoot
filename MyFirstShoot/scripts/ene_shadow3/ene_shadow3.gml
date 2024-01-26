@@ -21,7 +21,7 @@ function ene_shadow3(){
 		switch(patternCount){
 			case 0:
 			onMoveState = true;
-			moveX = random_range(128 , (room_width-128));
+			moveX = random_range(128 , (room_width-208));
 			moveY = random_range(128 , (room_height/2-128));
 			dirX = x + (moveX - x);
 			dirY = y + (moveY - y);
