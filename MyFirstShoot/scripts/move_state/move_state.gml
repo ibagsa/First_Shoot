@@ -21,10 +21,10 @@ function move_state(){
 	
 	var moveX = lengthdir_x(len,dir);
 	var moveY = lengthdir_y(len,dir);
-	if((x+moveX) < 0 || (x+moveX) > room_width){
+	if((x+moveX) < 0 || (x+moveX) > (room_width-96)){
 		moveX = 0;
 	}
-	if((y+moveY) < (room_height/2) || (y+moveY) > ((room_height-(PLAYER.sprite_height/2))-80)){
+	if((y+moveY) < (room_height/2) || (y+moveY) > (room_height-(PLAYER.sprite_height/2))){
 		moveY = 0;
 	}
 	

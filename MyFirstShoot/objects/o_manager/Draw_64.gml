@@ -3,7 +3,7 @@
 //Draw interface
 draw_set_color(c_black);
 draw_set_alpha(0.75);
-draw_rectangle(0, 888 ,640, 960, false);
+draw_rectangle(568, 0, 640, 960, false); //568
 draw_set_alpha(1);
 
 //Draw save ability
