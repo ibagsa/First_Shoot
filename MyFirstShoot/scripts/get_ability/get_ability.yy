@@ -1,11 +1,13 @@
 {
-  "resourceType": "GMScript",
-  "resourceVersion": "1.0",
-  "name": "get_ability",
-  "isCompatibility": false,
-  "isDnD": false,
-  "parent": {
-    "name": "ability",
-    "path": "folders/스크립트/ability.yy",
+  "$GMScript":"",
+  "%Name":"get_ability",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"get_ability",
+  "parent":{
+    "name":"ability",
+    "path":"folders/스크립트/ability.yy",
   },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
 }

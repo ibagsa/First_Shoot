@@ -11,3 +11,9 @@ atkDmg = 1; //All tears dmg
 enterBuf = false; //Set enter buffer
 
 lifeAlpha = 1; //Set life alpha for draw
+
+//Item var
+it_timer = 0;
+it_onHope = false;
+it_onScream = false;
+it_onHeartbreak = false;
