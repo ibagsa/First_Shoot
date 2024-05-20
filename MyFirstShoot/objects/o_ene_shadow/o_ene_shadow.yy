@@ -8,7 +8,7 @@
   "managed":true,
   "name":"o_ene_shadow",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"o_eneP","path":"objects/o_eneP/o_eneP.yy",},"propertyId":{"name":"profile","path":"objects/o_eneP/o_eneP.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_eneP","path":"objects/o_eneP/o_eneP.yy",},"propertyId":{"name":"profile","path":"objects/o_eneP/o_eneP.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3",},
   ],
   "parent":{
     "name":"Enemy",

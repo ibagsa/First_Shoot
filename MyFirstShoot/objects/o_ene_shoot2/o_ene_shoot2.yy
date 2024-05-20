@@ -5,7 +5,7 @@
   "managed":true,
   "name":"o_ene_shoot2",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"","%Name":"","name":"","objectId":{"name":"o_ene_shootP","path":"objects/o_ene_shootP/o_ene_shootP.yy",},"propertyId":{"name":"shootType","path":"objects/o_ene_shootP/o_ene_shootP.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_ene_shootP","path":"objects/o_ene_shootP/o_ene_shootP.yy",},"propertyId":{"name":"shootType","path":"objects/o_ene_shootP/o_ene_shootP.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
   ],
   "parent":{
     "name":"EnemyShoot",

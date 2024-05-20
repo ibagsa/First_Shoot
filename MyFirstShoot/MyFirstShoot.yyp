@@ -38,7 +38,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.2.0.132",
+    "IDEVersion":"2024.4.0.137",
   },
   "name":"MyFirstShoot",
   "resources":[
@@ -70,6 +70,7 @@
     {"id":{"name":"s_courage","path":"sprites/s_courage/s_courage.yy",},},
     {"id":{"name":"s_desire","path":"sprites/s_desire/s_desire.yy",},},
     {"id":{"name":"s_despair","path":"sprites/s_despair/s_despair.yy",},},
+    {"id":{"name":"s_ef_hope","path":"sprites/s_ef_hope/s_ef_hope.yy",},},
     {"id":{"name":"s_ene_boss","path":"sprites/s_ene_boss/s_ene_boss.yy",},},
     {"id":{"name":"s_ene_shadow","path":"sprites/s_ene_shadow/s_ene_shadow.yy",},},
     {"id":{"name":"s_ene_shoot","path":"sprites/s_ene_shoot/s_ene_shoot.yy",},},
@@ -87,7 +88,6 @@
     {"id":{"name":"s_scream","path":"sprites/s_scream/s_scream.yy",},},
     {"id":{"name":"s_shield","path":"sprites/s_shield/s_shield.yy",},},
     {"id":{"name":"s_willingness","path":"sprites/s_willingness/s_willingness.yy",},},
-    {"id":{"name":"s_ef_hope","path":"sprites/s_ef_hope/s_ef_hope.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
